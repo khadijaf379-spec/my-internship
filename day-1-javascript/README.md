@@ -1,7 +1,7 @@
 # this is my first internship lesson 
-<br>
+
 # javascript 
-<br>
+
 # Theory:
 
 Q:
@@ -56,7 +56,7 @@ Code execution phase: is the second part of a program's lifecycle inside a runti
 
 During this phase, the engine evaluates and executes the source code line by line, updating memory spaces with real values rather than placeholders.
 
-Language concepts
+# Language concepts
 
 1- Variables:
 
