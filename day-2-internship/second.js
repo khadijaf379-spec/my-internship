@@ -36,3 +36,58 @@ console.log(2 + 3 * 4);       // 14 (multiplication first)
 console.log((2 + 3) * 4);     // 20 (parentheses first)
 console.log(10 - 2 + 3);      // 11 (left to right)
 console.log(2 ** 3 ** 2);     // 512 (right to left)
+
+
+//logic building
+//percentage caculator
+let part = 45;
+let total = 200;
+let percentage = (part / total) * 100;
+console.log(percentage + "%");   // 22.5%
+
+//gpa calculator
+let gradepoints = 3.7 + 3.3 + 4.0;
+let credithours = 3 + 3 + 3;
+let gpa = ( gradepoints / credithours);
+console.log(gpa);
+
+//currency convertor
+let amount = 100;
+let exchangeRate = 278;
+let currency = (amount * exchangeRate);
+console.log(currency);
+
+//Build a Console-Based Utility Calculator
+// basic calculator 
+// Step 1: Define the values
+let num1 = 10;
+let num2 = 5;
+let operator = "+";
+
+// Step 2: Variable to store the result
+let result;
+
+// Step 3: Use switch statement to perform the operation
+switch (operator) {
+  case "+":
+    result = num1 + num2;
+    break;
+  case "-":
+    result = num1 - num2;
+    break;
+  case "*":
+    result = num1 * num2;
+    break;
+  case "/":
+    if (num2 === 0) {
+      result = "Error: Cannot divide by zero";
+    } else {
+      result = num1 / num2;
+    }
+    break;
+  default:
+    result = "Invalid operator";
+}
+
+// Step 4: Print the result to the console
+console.log("Result:", result);
